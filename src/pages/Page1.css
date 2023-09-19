@@ -1,0 +1,21 @@
+
+  .typewriter {
+    overflow: hidden; /* Ensures the text is hidden initially */
+    border-right: 0.15em solid; /* Adds the typewriter cursor */
+    white-space: nowrap;
+    /* margin: 0 auto; Centers the text */
+    /* letter-spacing: 0.15em; Adjust spacing between letters */
+    animation:
+        typing 3s steps(40, end);
+        /* blink-caret 0.5s step-end 31; */
+}
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black }
+  }

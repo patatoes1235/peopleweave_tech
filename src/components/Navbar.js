@@ -26,8 +26,8 @@ const NavItem = (props) => {
             <HStack spacing={8} alignItems={'center'}>
               {/* <Box>Logo</Box> */}
               <HStack as={'nav'} spacing={4} display={{ base: 'none', md: 'flex' }}>
-                <NavItem link={"/"}>page1</NavItem>
-                <NavItem link={"/pg2"}>page2</NavItem>
+                <NavItem link={"/"}>Page 1</NavItem>
+                <NavItem link={"/pg2"}>Page 2</NavItem>
               </HStack>
             </HStack>
           </Flex>

@@ -1,3 +1,5 @@
+import userEvent from "@testing-library/user-event";
+
 export const design2 = {
     conferenceName: "Conference Name",
     subNumber: 1500,
@@ -18,4 +20,13 @@ export const design2 = {
         {award: "Best paper", paperTitle: "paper title that is usually pretty long"}]
 };
 
-export const design1 = {};
+export const design1 = {
+    searchProfiles: [
+        {type: "user", name: "Hao Li", image: ""},
+        {type: "user", name: "JW Hong", image: ""}
+    ],
+    searchPapers: [
+        {type: "paper", title: "Programming Network Stack for Middleboxes with Rubik", authors: "Hao Li, Xian; Charghao Wu, Xian; Guanda Sun, Peng Zhang, and Danfeng Shan, Xian"},
+        {type: "paper", title: "Are you ready for artificial Mozart and Skrillex? An experiment testing expectancy violation theory and AI music", authors: "JW Hong, Q Peng, Hao Li Xian, JW Hong"}
+    ]
+}
