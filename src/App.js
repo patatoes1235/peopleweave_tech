@@ -12,7 +12,7 @@ function App() {
       <ChakraProvider theme={theme}>
         <Navbar />
         
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL} >
           <Routes>
             <Route path="/peopleweave_tech/pg1" element={<Page1 />} />
             <Route path="/peopleweave_tech/pg2" element={<Page2 />} />
