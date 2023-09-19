@@ -14,9 +14,9 @@ function App() {
         
         <BrowserRouter basename={process.env.PUBLIC_URL} >
           <Routes>
-            <Route path="/peopleweave_tech/pg1" element={<Page1 />} />
-            <Route path="/peopleweave_tech/pg2" element={<Page2 />} />
-            <Route path="/peopleweave_tech" element={<Page1 />} />
+            <Route path="/pg1" element={<Page1 />} />
+            <Route path="/pg2" element={<Page2 />} />
+            <Route path="/" element={<Page1 />} />
           </Routes>
         </BrowserRouter>
       </ChakraProvider>
