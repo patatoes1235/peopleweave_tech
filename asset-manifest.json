@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/peopleweave_frontend/static/css/main.33401413.css",
+    "main.js": "/peopleweave_frontend/static/js/main.64e1dfb7.js",
+    "static/js/787.fbaed420.chunk.js": "/peopleweave_frontend/static/js/787.fbaed420.chunk.js",
+    "static/media/logo.svg": "/peopleweave_frontend/static/media/logo.034ef726eb08f413c8e9ff1b0abe7414.svg",
+    "index.html": "/peopleweave_frontend/index.html",
+    "main.33401413.css.map": "/peopleweave_frontend/static/css/main.33401413.css.map",
+    "main.64e1dfb7.js.map": "/peopleweave_frontend/static/js/main.64e1dfb7.js.map",
+    "787.fbaed420.chunk.js.map": "/peopleweave_frontend/static/js/787.fbaed420.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.33401413.css",
+    "static/js/main.64e1dfb7.js"
+  ]
+}
