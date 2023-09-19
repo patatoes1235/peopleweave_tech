@@ -1,5 +1,7 @@
 export const design2 = {
+    conferenceName: "Conference Name",
     subNumber: 1500,
+    prevSubNumber: 1300,
     acceptRate: 50,
     trendTag: [
         {name: "Neural Network", id: 157},

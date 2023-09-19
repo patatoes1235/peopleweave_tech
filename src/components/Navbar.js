@@ -1,9 +1,8 @@
 import { Box, Flex, HStack} from "@chakra-ui/react";
+// import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 
-
-const NavItem = (props, link) => {
-    const { children } = props
-  
+const NavItem = (props) => {
+    const { children } = props;
     return (
       <Box
         as="a"
@@ -12,32 +11,26 @@ const NavItem = (props, link) => {
         rounded={'md'}
         _hover={{
           textDecoration: 'none',
-          bg: useColorModeValue('gray.200', 'gray.700'),
         }}
-        href={link}>
+        href={props.link}>
         {children}
       </Box>
     )
   }
 
-  export default Navbar = () => {
-    <Box bg={useColorModeValue('gray.100', 'gray.900')} px={4}>
-        <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
-          <IconButton
-            size={'md'}
-            icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
-            aria-label={'Open Menu'}
-            display={{ md: 'none' }}
-            onClick={isOpen ? onClose : onOpen}
-          />
-          <HStack spacing={8} alignItems={'center'}>
-            <Box>Logo</Box>
-            <HStack as={'nav'} spacing={4} display={{ base: 'none', md: 'flex' }}>
-              {Links.map((link) => (
-                <NavLink key={link}>{link}</NavLink>
-              ))}
+  export default function Navbar() {
+    return (
+      <Box px={4} bg={"gray.100"}>
+          <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
+
+            <HStack spacing={8} alignItems={'center'}>
+              {/* <Box>Logo</Box> */}
+              <HStack as={'nav'} spacing={4} display={{ base: 'none', md: 'flex' }}>
+                <NavItem link={"/"}>page1</NavItem>
+                <NavItem link={"/pg2"}>page2</NavItem>
+              </HStack>
             </HStack>
-          </HStack>
-        </Flex>
-    </Box> 
-  }
+          </Flex>
+      </Box> 
+    );
+  };
