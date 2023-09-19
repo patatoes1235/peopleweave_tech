@@ -1,7 +1,7 @@
 {
   "name": "peopleweave2",
   "version": "0.1.0",
-  "homepage": "https://patatoes1235.github.io/peopleweave_frontend",
+  "homepage": "https://patatoes1235.github.io/peopleweave_tech",
   "private": true,
   "dependencies": {
     "@chakra-ui/icons": "^2.1.1",
