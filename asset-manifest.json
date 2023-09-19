@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/peopleweave_tech/static/css/main.33401413.css",
-    "main.js": "/peopleweave_tech/static/js/main.ba844c05.js",
+    "main.js": "/peopleweave_tech/static/js/main.add6bab0.js",
     "static/js/787.fbaed420.chunk.js": "/peopleweave_tech/static/js/787.fbaed420.chunk.js",
     "static/media/logo.svg": "/peopleweave_tech/static/media/logo.034ef726eb08f413c8e9ff1b0abe7414.svg",
     "index.html": "/peopleweave_tech/index.html",
     "main.33401413.css.map": "/peopleweave_tech/static/css/main.33401413.css.map",
-    "main.ba844c05.js.map": "/peopleweave_tech/static/js/main.ba844c05.js.map",
+    "main.add6bab0.js.map": "/peopleweave_tech/static/js/main.add6bab0.js.map",
     "787.fbaed420.chunk.js.map": "/peopleweave_tech/static/js/787.fbaed420.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.33401413.css",
-    "static/js/main.ba844c05.js"
+    "static/js/main.add6bab0.js"
   ]
 }
